@@ -6,7 +6,7 @@
     <title>Welcome to Sweden</title>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/city.css">
-    <script src="./script.js"></script>
+    <script defer src="./script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -16,11 +16,14 @@
                 <a href="./about.html">About Us</a>
             </nav>
             <img src="./images/tmp_missing_img.webp" alt="Logo image">
-            <search>
-                <form>
-                    <input name="search" id="search" placeholder="Search">
-                </form>
-            </search>
+            <div>
+                <button class="lightMode" type="button">&#9728;</button>
+                <search>
+                    <form>
+                        <input name="search" id="search" placeholder="Search">
+                    </form>
+                </search>
+            </div>
         </header>
         <main>
             <h1>tmp stad</h1>
@@ -34,15 +37,11 @@
             <img src="./images/tmp_missing_img.webp" alt="">
         </aside>
         <footer>
-            <nav class="footerLinks">
-                <a href="./index.html">Startpage</a>
-                <a href="./about.html">About Us</a>
-            </nav>
-            <nav class="footerToS">
-                <p>&copy; 2026 Website. All rights reserved</p>
-                <a href="about.html">Privacy Policy</a>
-                <a href="about.html">Terms of Service</a>
-            </nav>
+                <a class="topLeft" href="./index.html">Startpage</a>
+                <a class="topCenter" href="./about.html">About Us</a>
+                <a class="topRight" href="about.html">Privacy Policy</a>
+                <a class="bottomLeft" href="about.html">Terms of Service</a>
+                <p class="bottomRight" >&copy; 2026 Website. All rights reserved</p>
         </footer>
     </div>
 </body>

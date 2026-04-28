@@ -1,6 +1,27 @@
-main {}
-main h1 {}
-main p {}
+main {
+    margin: 5rem 2rem 5rem 10rem;
+}
+main h1 {
+    margin: 3rem 0 1rem 0;
+}
+main p {
+    margin: 1rem 0;
+}
 
-aside {}
-aside p {}
+aside {
+    border: 0.1rem solid black;
+    border-radius: 1rem;
+    padding: 2.4rem 1rem;
+    margin: 5rem 10rem 5rem 2rem;
+    width: 30rem;
+    height: fit-content;
+}
+aside ul {
+
+}
+aside ul li {
+
+}
+aside ul li a {
+
+}

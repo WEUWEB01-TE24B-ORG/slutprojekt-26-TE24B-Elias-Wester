@@ -6,58 +6,59 @@
     <title>Welcome to Sweden</title>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/index.css">
-    <script src="./script.js"></script>
+    <script defer src="./script.js"></script>
 </head>
 <body>
     <div class="container">
         <header>
             <nav>
-                <a href="#">Startpage</a>
+                <a class="active" href="./index.html">Startpage</a>
                 <a href="./about.html">About Us</a>
             </nav>
             <img src="./images/tmp_missing_img.webp" alt="Logo image">
-            <search>
-                <form>
-                    <input name="search" id="search" placeholder="Search">
-                </form>
-            </search>
+            <div>
+                <button class="lightMode" type="button">&#9728;</button>
+                <search>
+                    <form>
+                        <input name="search" id="search" placeholder="Search">
+                    </form>
+                </search>
+            </div>
         </header>
         <main>
             <h1>Welcome to Sweden</h1>
             <nav>
-                <a href="#">tmp</a>
-                <a href="#">tmp</a>
-                <a href="#">tmp</a>
+                <a href="./malmo.html">Malmö</a>
+                <a href="./stockholm.html">Stockholm</a>
+                <a href="./goteborg.html">Göteborg</a>
             </nav>
-            <div class="infobox">
-                <img src="./images/tmp_missing_img.webp" alt="">
-                <h2>Lorem</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa voluptate aliquam sapiente delectus vitae.</p>
-                <a href="#">Read more</a>
-            </div>
-            <div class="infobox">
-                <img src="./images/tmp_missing_img.webp" alt="">
-                <h2>Lorem</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa voluptate aliquam sapiente delectus vitae.</p>
-                <a href="#">Read more</a>
-            </div>
-            <div class="infobox">
-                <img src="./images/tmp_missing_img.webp" alt="">
-                <h2>Lorem</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa voluptate aliquam sapiente delectus vitae.</p>
-                <a href="#">Read more</a>
+            <div class="boxes">
+                <div class="infobox">
+                    <img src="./images/tmp_missing_img.webp" alt="">
+                    <h2>Malmö</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa voluptate aliquam sapiente delectus vitae.</p>
+                    <a href="./malmo.html">Read more</a>
+                </div>
+                <div class="infobox">
+                    <img src="./images/tmp_missing_img.webp" alt="">
+                    <h2>Stockholm</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa voluptate aliquam sapiente delectus vitae.</p>
+                    <a href="./stockholm.html">Read more</a>
+                </div>
+                <div class="infobox">
+                    <img src="./images/tmp_missing_img.webp" alt="">
+                    <h2>Göteborg</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit ipsa voluptate aliquam sapiente delectus vitae.</p>
+                    <a href="./goteborg.html">Read more</a>
+                </div>
             </div>
         </main>
         <footer>
-            <nav class="footerLinks">
-                <a href="./index.html">Startpage</a>
-                <a href="./about.html">About Us</a>
-            </nav>
-            <nav class="footerToS">
-                <p>&copy; 2026 Website. All rights reserved</p>
-                <a href="about.html">Privacy Policy</a>
-                <a href="about.html">Terms of Service</a>
-            </nav>
+                <a class="topLeft" href="./index.html">Startpage</a>
+                <a class="topCenter" href="./about.html">About Us</a>
+                <a class="topRight" href="about.html">Privacy Policy</a>
+                <a class="bottomLeft" href="about.html">Terms of Service</a>
+                <p class="bottomRight" >&copy; 2026 Website. All rights reserved</p>
         </footer>
     </div>
 </body>
