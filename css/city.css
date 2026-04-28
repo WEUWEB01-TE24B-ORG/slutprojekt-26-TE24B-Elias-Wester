@@ -10,5 +10,8 @@ main a {}
 aside {
     margin: 5rem 10rem 5rem 2rem;
 }
-aside img {}
+aside img {
+    width: 40rem;
+    border-radius: 1rem;
+}
 aside p {}
