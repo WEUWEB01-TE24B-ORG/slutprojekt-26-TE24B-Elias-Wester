@@ -25,3 +25,38 @@ aside ul li {
 aside ul li a {
 
 }
+
+@media (max-width: 1024px) {
+    aside {
+        margin: 2rem;
+        width: fit-content;
+    }
+    main {
+        margin: 2rem;
+    }
+    main p {
+        font-size: 2rem;
+    }
+    aside a {
+        font-size: 2rem;
+    }
+    main h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-areas: 
+        "header"
+        "aside"
+        "main"
+        "footer"
+        ;
+    }
+    aside {
+        width: auto;
+    }
+}

@@ -11,7 +11,43 @@ aside {
     margin: 5rem 10rem 5rem 2rem;
 }
 aside img {
-    width: 40rem;
+    width: 60rem;
     border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 0.2rem #000;
 }
 aside p {}
+
+@media (max-width: 1024px) {
+    aside {
+        margin: 2rem;
+        width: 30rem;
+    }
+    main {
+        margin: 2rem;
+    }
+    main p {
+        font-size: 2rem;
+    }
+    aside a {
+        font-size: 2rem;
+    }
+    main h1 {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto 1fr auto;
+        grid-template-areas: 
+        "header"
+        "aside"
+        "main"
+        "footer"
+        ;
+    }
+    aside {
+        width: auto;
+    }
+}
