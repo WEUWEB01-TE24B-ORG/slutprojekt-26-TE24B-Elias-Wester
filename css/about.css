@@ -1,3 +1,4 @@
+/* main page css */
 main {
     margin: 5rem 2rem 5rem 10rem;
 }
@@ -8,6 +9,7 @@ main p {
     margin: 1rem 0;
 }
 
+/* menu to parts of website */
 aside {
     border: 0.1rem solid black;
     border-radius: 1rem;
@@ -26,6 +28,7 @@ aside ul li a {
 
 }
 
+/* tablet and phone layout */
 @media (max-width: 1024px) {
     aside {
         margin: 2rem;
@@ -44,7 +47,6 @@ aside ul li a {
         font-size: 4rem;
     }
 }
-
 @media (max-width: 768px) {
     .container {
         grid-template-columns: 1fr;

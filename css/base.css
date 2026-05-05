@@ -49,6 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* #endregion */
 
+/* global varialbes */
 :root {
     --imperial-blue: #00296bff;
     --french-blue: #003f88ff;
@@ -58,8 +59,6 @@ h1, h2, h3, h4, h5, h6 {
     --light-yellow: #ffea82;
     --white: #fff;
 }
-
-/* global varialbes */
 html {
     font-size: 62.5%; /* makes 1rem = 10px */
 }
@@ -71,7 +70,6 @@ body {
 a {
     text-decoration: none;
 }
-
 .container {
     background-color: var(--white);
     display: grid;
@@ -85,6 +83,7 @@ a {
     ;
 }
 
+/* header */
 header {
     font-size: 1.8rem;
     grid-area: header;
@@ -142,14 +141,15 @@ header search form input {
     margin: 0.4rem;
 }
 
+/* main and aside layout, mainly changed from other css files */
 main {
     grid-area: main;
 }
-
 aside {
     grid-area: aside;
 }
 
+/* footer */
 footer {
     box-shadow: 0 -0.2rem 0.4rem #000;
     font-size: 1.8rem;
@@ -178,6 +178,7 @@ footer p {
 
 }
 
+/* grid layout for footer */
 .topLeft {
     grid-area: top-left;
 }
@@ -194,7 +195,7 @@ footer p {
     grid-area: bottom-right;
 }
 
-
+/* tablet and phone layout */
 @media (max-width: 1024px) {
     html {
         font-size: 90%;
@@ -208,7 +209,6 @@ footer p {
         ;
     }
 }
-
 @media (max-width: 768px) {
     html {
         font-size: 100%;
