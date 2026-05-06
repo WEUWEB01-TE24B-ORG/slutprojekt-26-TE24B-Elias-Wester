@@ -18,15 +18,6 @@ aside {
     width: 30rem;
     height: fit-content;
 }
-aside ul {
-
-}
-aside ul li {
-
-}
-aside ul li a {
-
-}
 
 /* tablet and phone layout */
 @media (max-width: 1024px) {
